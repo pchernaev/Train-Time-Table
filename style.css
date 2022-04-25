@@ -3,8 +3,8 @@ body {
 }
 
 #add-data {
-  width: 13%;
-  height: 90%;
+  width: 220px;
+  height: 850px;
   display: inline-block;
   border: solid 5px;
   margin-right: 3%;
@@ -16,8 +16,8 @@ body {
 }
 
 #info {
-  width: 75%;
-  height: 90%;
+  width: 1200px;
+  height: 850px;
   vertical-align: top;
   display: inline-block;
   border: solid 5px;
