@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Train Timetable</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar&family=Inconsolata:wght@900&family=Plus+Jakarta+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="add-data">
+      <div id="name-div">
+        <p>Train Name:</p>
+        <input type="text" placeholder="  Train Name" />
+      </div>
+      <div id="destination-div">
+        <p>Destination:</p>
+        <input type="text" placeholder="  Destination" />
+      </div>
+      <div id="next-div">
+        <p>Next Train (24 hrs format):</p>
+        <input type="text" placeholder="  HH:MM" />
+      </div>
+      <div id="interval-div">
+        <p>Interval (mm):</p>
+        <input type="text" placeholder="  MM" />
+      </div>
+      <div id="submit-div">
+        <button id="btn">Submit</button>
+      </div>
+    </div>
+    <div id="info">
+      <div id="title">
+        <p>Train Time Table</p>
+      </div>
+      <div id="table-div">
+        <table id="table">
+          <tr>
+            <th>Train Name</th>
+            <th>Destination</th>
+            <th>Frequency</th>
+            <th>Next Arrival</th>
+            <th>Arriving In</th>
+            <th>Actions</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

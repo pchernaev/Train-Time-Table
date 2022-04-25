@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(135, 206, 235);
+}
+
+#add-data {
+  width: 13%;
+  height: 90%;
+  display: inline-block;
+  border: solid 5px;
+  margin-right: 3%;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: #e54938;
+  border-radius: 6px;
+}
+
+#info {
+  width: 75%;
+  height: 90%;
+  vertical-align: top;
+  display: inline-block;
+  border: solid 5px;
+  background-color: #e54938;
+  border-radius: 6px;
+}
+
+th,
+td {
+  border: solid 3px black;
+}
+
+#name-div {
+  text-align: start;
+  padding-top: 40%;
+  padding-bottom: 15%;
+  font-size: 120%;
+  font-family: "Akshar", sans-serif;
+}
+
+#destination-div {
+  text-align: start;
+  padding-bottom: 15%;
+  font-size: 120%;
+  font-family: "Akshar", sans-serif;
+}
+
+#next-div {
+  text-align: start;
+  padding-bottom: 15%;
+  font-size: 120%;
+  font-family: "Akshar", sans-serif;
+}
+
+#interval-div {
+  text-align: start;
+  padding-bottom: 15%;
+  font-size: 120%;
+  font-family: "Akshar", sans-serif;
+}
+
+#submit-div {
+  text-align: start;
+  padding-bottom: 100%;
+}
+
+#title {
+  background-color: white;
+  font-size: 350%;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 4px;
+  color: rgb(178, 34, 34);
+  font-family: "Inconsolata", monospace;
+}
+
+#table {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+#btn {
+  font-size: 110%;
+  padding: 4%;
+  border: solid 2px;
+  border-color: rgb(34, 139, 34);
+  border-radius: 10px;
+  box-shadow: 1px;
+  background-color: rgb(50, 205, 50);
+  color: white;
+  font-family: "Akshar", sans-serif;
+  margin-top: 25%;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  border-radius: 10px;
+  border: transparent;
+  height: 5%;
+}
+
+table {
+  border-spacing: 0;
+}
+
+th {
+  background-color: rgb(105, 105, 105);
+  color: white;
+  font-size: 120%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+tr {
+  height: 50px;
+}
