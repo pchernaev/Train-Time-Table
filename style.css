@@ -96,6 +96,20 @@ td {
   width: 100%;
 }
 
+.edit-btn {
+  width: 50%;
+  font-size: 140%;
+  background-color: transparent;
+  border: solid 2px;
+}
+
+.del-btn {
+  width: 50%;
+  font-size: 140%;
+  background-color: transparent;
+  border: solid 2px;
+}
+
 input {
   width: 100%;
   border-radius: 10px;
@@ -111,6 +125,12 @@ th {
   background-color: rgb(105, 105, 105);
   color: white;
   font-size: 120%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+td {
+  color: black;
+  font-size: 100%;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
